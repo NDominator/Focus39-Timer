@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus 39 Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <audio id="timerSound" src="https://actions.google.com/sounds/v1/alarms/digital_watch_alarm_long.ogg"></audio>
+        <h1>Focus39 Timer</h1>
+        
+        <div class="timer" id="timer">00:00</div>
+        
+        <div class="custom-input">
+            <input type="text" id="customTime" placeholder="Enter time (e.g., 30:00 or :30)">
+            <button id="setCustomTime">Set</button>
+        </div>
+        
+        <div id="controls">
+            <button id="Focus">Focus (13min)</button>
+            <button id="break">Break (5min)</button>
+            <button id="start">Start</button>
+            <button id="pause">Pause</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
